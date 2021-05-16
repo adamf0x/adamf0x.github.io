@@ -10270,3 +10270,24 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+[class*="scrolled"]{
+  animation: scroll-fade-in 1s ease forwards;
+}
+@keyframes scroll-fade-in {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes scroll-fade-out {
+  from{
+    opacity:100;
+  }
+  to{
+    opacity: 0;
+  }
+}
